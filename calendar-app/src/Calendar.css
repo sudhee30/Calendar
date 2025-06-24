@@ -1,8 +1,8 @@
-/* Body gradient background */
+
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* soft gradient */
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
   min-height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
@@ -13,7 +13,7 @@ body {
 .calendar-container {
   width: 100%;
   max-width: 1000px;
-  background: linear-gradient(to bottom right, #ffffff, #f3f8ff); /* clean internal gradient */
+  background: linear-gradient(to bottom right, #ffffff, #f3f8ff); 
   border-radius: 16px;
   padding: 24px 32px;
   box-shadow: 0 8px 40px rgba(0, 0, 0, 0.1);
@@ -52,7 +52,7 @@ body {
 
 .calendar-grid {
   display: grid;
-  grid-template-columns: repeat(7, 1fr); /* 7 equal columns */
+  grid-template-columns: repeat(7, 1fr); 
   gap: 12px;
   margin-top: 20px;
 }
@@ -178,7 +178,7 @@ body {
 }
 .dropdown {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns for better layout */
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   background: white;
   border: 1px solid #ddd;
